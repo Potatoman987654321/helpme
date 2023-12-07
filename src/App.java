@@ -1,8 +1,10 @@
 
 public class App {
     public static void main(String[] args) {
-        System.out.write(75);
+
+        for (int i = 0; i < 256; i++) {
+            System.out.write(i);
+        }
         System.out.flush();
     }
-
 }
